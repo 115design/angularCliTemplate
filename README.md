@@ -1,5 +1,7 @@
 # AngularCliTemplate
 
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.5.
 
 ## Development server
@@ -26,3 +28,19 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Installation
+
+    $ git clone https://github.com/115design/angularCliTemplate.git
+    $ cd angularCliTemplate
+    $ npm install
+    $ export PATH=$PATH:./node_modules/.bin
+    $ ng serve
+
+## Author
+
+[115design](http://115design.main.jp/)
+
+## Licence
+
+[MIT](https://opensource.org/licenses/MIT)
