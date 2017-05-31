@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+// Global Variables
+//------------------------------------------------------
+$modules: () !default;
+$experimental: true !default;
+
+// prefix elements
+$prefix-webkit: true !global;
+$prefix-moz: true !global;
+$prefix-spec: true !global;
+
+// Basic Width
+//------------------------------------------------------------------------------
+$basic-width: 1120;
+
+// Break Point
+//------------------------------------------------------------------------------
+$pc-width: 1140;
+$tb-width: 640;
+$sp-width: 480;
+$iphone6-width: 375;
+$iphone5-width: 320;
+
+// color elements
+$white: #FFF !default;
+$black: #000 !default;
