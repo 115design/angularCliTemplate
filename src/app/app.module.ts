@@ -8,18 +8,22 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeModule } from './home/home.module';
+import { LoginModule } from './login/login.module';
+import { UserModule } from './user/user.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NotFoundComponent
-  ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     HomeModule,
+    LoginModule,
+    UserModule,
     AppRoutingModule
+  ],
+  declarations: [
+    AppComponent,
+    NotFoundComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
